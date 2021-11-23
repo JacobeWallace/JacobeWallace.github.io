@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <!-- the head section is important for the browser before it builds the webpage-->
+  <head>
+    <!-- helps my web page visibility-->
+    <meta name="description" content="autobiography" />
+    <!-- the charset attribute specifies the character encoding -->
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <!-- Create the text for the web tab-->
+    <title>Great Escapes</title>
+    <img src="Images/Layer 1.png" alt="The Great Escapes"
+    width="1200px"> 
+  </head>
+  <!-- the body is what actually builds the webpage -->
+  <body>
+    <!-- the header element represents a container for introductory content or a set of navigational links -->
+    <header>
+      
+    
+      <!-- nav element represents section of page  for navigational links -->
+      <nav>
+        <div class="navbar">
+        <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li> <a href="rooms.html">Rooms</a> </li>
+        <li> <a href="tickets.html">Tickets</a></li>
+        <li> <a href="content.html">Content</a> </li>
+        <li> <a href="teambuilding.html">Team Building </a> </li>
+      </ul>
+    </div>
+      </nav>
+    </header>
+    <main>
+        <img src="images/Background.png" width="1200px" alt="teambuilding">
+        <h1>Would You Like More Information</h1>
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+    </main>
+  </body>
