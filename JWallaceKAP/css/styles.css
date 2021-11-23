@@ -1,0 +1,264 @@
+.body_content {
+background-color: #e9e6db;
+min-width: 1080px;
+max-width: 1224px;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+margin-left: auto;
+margin-right: auto;
+border: 2px;
+border-style: solid;
+
+}
+text {
+    text-decoration-color: #000000;
+    line-height: 1.50m;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.header1 {
+    font-weight: bold;
+    text-transform: 40px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 60px;
+}
+.header2 {
+    font-weight: bold;
+    text-transform: 28px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    
+
+}
+.header3 {
+    font-weight: bold;
+    text-transform: 20px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    
+
+}
+nav {
+    font-weight: bold;
+    text-transform: 28px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+#picture {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+
+}
+a:link {
+    color: brown;
+}
+a:visited {
+    color: crimson;
+}
+a:focus {
+    color: darkgreen;
+}
+a:hover {
+    background-color: darkred;
+}
+a:active {
+    font-size: 18px;
+}
+nav a:link {
+    background-color:tan;
+    text-decoration: none;
+    text-transform: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+nav a:visited {
+    color: crimson;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+nav li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+}
+
+header.head{
+    background-color: rgb(189, 178, 165);
+    height: 3in;
+    border-style: solid;
+    border-width: 15px 15px;
+    border-color: rgb(110, 45, 45);
+}
+
+nav div ul{
+display: inline-block;
+list-style-type: none;
+text-align: center;
+
+}
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+        
+        color: black;
+        text-align: 50%;
+        padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+
+.footer {
+    height: 1.5in;
+    background-color: rgb(189, 178, 165);
+    text-align: center;
+    border-style: solid;
+    border-width: 15px 15px;
+    border-color: rgb(110, 45, 45);
+}
+
+
+.p {
+    text-align: center;
+}
+li {
+    line-height: 1.50em;
+    
+}
+ul {
+    list-style-type: circle; 
+    list-style-position: inside;
+    text-align: center;
+}
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+blockquote{
+    text-align: center;
+}
+button {
+    background-color: black;
+    border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+section {
+    text-align: center;
+}
+.col {
+    background-color: tan;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+p.fpl::first-letter {
+    font-size: 28px;
+}
+section:nth-child(3) {
+    background-color: tan;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.column {
+    overflow: hidden;
+    border-bottom: 1px dashed;
+    padding: 25px 25px
+    
+}
+.column img {
+    float: left;
+    margin: 20px 20px;
+}
+.column2 {
+    overflow: hidden;
+    border-bottom: 1px dashed;
+    padding: 25px 25px;
+    
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media (max-width: 1024px) {
+    .body_content {
+        background-color: lavender;
+    }
+  main {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .footer {
+    clear: both;
+    grid-template-columns: 1fr;
+    float: left;
+  }
+  .col {
+      float: left;
+      grid-template-columns: 1fr 1fr;
+  }
+  header.head {
+      flex-shrink: inherit;
+      clear: both;
+      grid-row: inherit;
+}
+nav {
+    justify-content: center;
+}
+.column {
+    float: right
+}
+.row:after {
+    content: inherit;
+    display: table;
+    clear: initial;
+    float: right;
+}
+}
+@media (max-width: 400px) {
+    .body_content {
+        max-width: 400px;
+        background-color: lightgreen;
+    }
+    .col {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
